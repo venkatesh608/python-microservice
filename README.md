@@ -10,15 +10,8 @@ suite.
 
 ## Running ##
 
-Simply running the bkt_service script once dependencies are installed is enough to get the service to run locally on
-port 9991 (bottle's default).
 
 ```
-$ python bkt_service.py
-```
-
-Executing the following command in the root directory runs the bundled tests.
-
-```
-$ py.test
+$ pip install -r requirements.txt
+$ python service/unwind_array.py
 ```
